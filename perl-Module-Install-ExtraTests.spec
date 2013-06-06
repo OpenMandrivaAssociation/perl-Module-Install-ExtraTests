@@ -1,6 +1,5 @@
 %define upstream_name    Module-Install-ExtraTests
-%define upstream_version 0.007
-
+%define upstream_version 0.008
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.008
 Release:	1
