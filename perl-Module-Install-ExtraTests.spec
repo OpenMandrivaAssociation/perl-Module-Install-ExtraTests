@@ -1,15 +1,14 @@
 %define upstream_name    Module-Install-ExtraTests
-%define upstream_version 0.007
-
+%define upstream_version 0.008
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.008
+Release:	1
 
 Summary:	%{upstream_name} perl module
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Module/%{upstream_name}-%{upstream_version}.tar.xz
+Source0:	http://www.cpan.org/modules/by-module/Module/Module-Install-ExtraTests-0.008.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -44,4 +43,5 @@ make test
 * Fri Dec 03 2010 Shlomi Fish <shlomif@mandriva.org> 0.7.0-1mdv2011.0
 + Revision: 607097
 - import perl-Module-Install-ExtraTests
+
 
