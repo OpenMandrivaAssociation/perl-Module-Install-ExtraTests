@@ -2,7 +2,7 @@
 %define upstream_version 0.008
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.008
-Release:	2
+Release:	3
 
 Summary:	%{upstream_name} perl module
 License:	GPL+ or Artistic
