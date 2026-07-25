@@ -1,14 +1,14 @@
 %define upstream_name    Module-Install-ExtraTests
 %define upstream_version 0.008
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.008
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	%{upstream_name} perl module
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Module/Module-Install-ExtraTests-0.008.tar.gz
+Url:		https://git.codesimply.com/Module-Install-ExtraTests
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Module-Install-ExtraTests-0.008.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
