@@ -1,8 +1,7 @@
 %define upstream_name    Module-Install-ExtraTests
-%define upstream_version 0.008
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.008
+Release:	5
 
 Summary:	%{upstream_name} perl module
 License:	GPL+ or Artistic
@@ -19,7 +18,7 @@ BuildArch:	noarch
 %{upstream_name} perl module.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
